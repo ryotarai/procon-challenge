@@ -1,5 +1,4 @@
 def max_length(sides):
-    res = 0
     sides.reverse()
     len_sides = len(sides)
     for i in xrange(len_sides):
